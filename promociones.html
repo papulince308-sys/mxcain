@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Anime Store - promociones</title>
+    <link rel="icon" type="image/png" href="imagenes/logo favicon.png">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <header class="fixed-header">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> INICIO</a></li>
+                <li><a href="nosotros.html"><i class="fas fa-users"></i> NOSOTROS</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> BLOG</a></li>
+                <li><a href="galeria.html"><i class="fas fa-images"></i> GALERÍA</a></li>
+                <li><a href="videos.html"><i class="fas fa-video"></i> VIDEOS</a></li>
+                <li><a href="contactos.html"><i class="fas fa-envelope"></i> CONTACTOS</a></li>
+                <li><a href="promociones.html" class="active"><i class="fas fa-tags"></i> PROMOCIONES</a></li>
+                <li><a href="combos.html"><i class="fas fa-box"></i> COMBOS</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        <h1 class="page-title">Promociones exclusivas</h1>
+        <h2 class="section-title">Promociones</h2>
+            <div class="promo-container">
+                <div class="promo-card animated-card">
+                <h3>Promoción 1: Descuento del 20% en figuras seleccionadas:</h3>
+                <p>¡Aprovecha esta increíble oferta! Durante este mes, obtén un 20% de
+                descuento en una selección especial de figuras de acción. ¡No te lo
+                pierdas!</p>
+            </br>            
+            <div class="promo-container">
+                <h3>Promoción 2: Envío gratis en compras superiores a $50:</h3>
+                <p>Realiza tu pedido y disfruta del envío gratuito en todas las compras
+                que superen los $50. ¡Haz tu pedido ahora y recibe tus figuras sin costo
+                adicional!</p>
+            </br>
+            <div class="promo-container">
+                <h3>Promoción 3: Regalo sorpresa con cada compra superior a $35:</h3>
+                <p>Por tiempo limitado, recibirás un regalo sorpresa con cada compra
+                realizada en nuestra tienda. ¡Descubre qué figura exclusiva te espera!</p>
+            
+        <button class="btn-reclamar" onclick="mostrarcupones()">Reclamar Cupon</button>
+            </div>
+        </div>
+     </div>
+   
+
+    <script>
+        function mostrarcupones() {
+            Swal.fire({
+                title: '¡Felicidades!',
+                text: 'Has reclamado tu cupón de descuento. ¡Disfruta de tus compras! muestra el siguente código: STARNOVA67',
+                icon: 'success',
+                confirmButtonText: 'Aceptar',
+                confirmButtonColor: '#ff4757',
+            });
+        }
+    </script>
+
+       <div class="social-share">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+    </main>
+     <footer>
+        <p>&copy; 2026 Nova Anime Store</p>
+    </footer>
+
+</body>
+</html>

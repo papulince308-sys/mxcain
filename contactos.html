@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nova Anime Store - contactos</title>
+    <link rel="icon" type="image/png" href="imagenes/logo favicon.png">
+
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    
+    <header class="fixed-header">
+        <nav>
+            <ul class="nav-menu">
+                <li><a href="index.html"><i class="fas fa-home"></i> INICIO</a></li>
+                <li><a href="nosotros.html"><i class="fas fa-users"></i> NOSOTROS</a></li>
+                <li><a href="blog.html"><i class="fas fa-blog"></i> BLOG</a></li>
+                <li><a href="galeria.html"><i class="fas fa-images"></i> GALERÍA</a></li>
+                <li><a href="videos.html"><i class="fas fa-video"></i> VIDEOS</a></li>
+                <li><a href="contactos.html" class="active"><i class="fas fa-envelope"></i> CONTACTOS</a></li>
+                <li><a href="promociones.html"><i class="fas fa-tags"></i> PROMOCIONES</a></li>
+                <li><a href="combos.html"><i class="fas fa-box"></i> COMBOS</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <main class="content-wrapper">
+        <h1 class="page-title">Contáctanos</h1>
+
+            <div class="contactos-flex">
+
+                <!-- Columna Izquierda: Tabla de Información -->
+                <div class="info-section">
+                    <h3>Información de Contacto</h3>
+                    <table class="info-table">
+                        <tr>
+                            <th>Dirección:</th>
+                            <td>Av.Xxxx xxx 123 - Lima, Perú</td>
+                        </tr>
+                        <tr>
+                            <th>Teléfonos:</th>
+                            <td>xxx xxx xxx | (xx) xxxx-xxxxx</td>
+                        </tr>
+                        <tr>
+                            <th>Email:</th>
+                            <td>contacto@animefigures.com</td>
+                        </tr>
+                    </table>
+    
+                    <h3>Horario de Atención</h3>
+                    <table class="info-table">
+                        <tr>
+                            <th>Ventas:</th>
+                            <td>Lunes a Viernes de 9am a 7pm</td>
+                        </tr>
+                    </table>
+                    
+                </div>
+    
+                <div class="form-section">
+                    <h3>Déjanos tu comentario</h3>
+                    <form action="#" class="contact-form">
+                        <label for="nombre">Nombre y Apellido</label>
+                    <input type="text" id="nombre" name="nombre" required placeholder="Tu nombre">
+    
+                        <label for="celular">Celular</label>
+                    <input type="text" id="celular" name="celular" required placeholder="xxx xxx xxx">
+    
+                        <label for="email">Correo electrónico</label>
+                    <input type="email" id="email" name="email" required placeholder="Tu correo electrónico">
+    
+                        <label for="ruc">RUC - Empresa (Opcional)</label>
+                    <input type="text" id="ruc" name="ruc" placeholder="00000000000">
+                    </div>
+
+                    <div class="group-form">
+                        <label for="asunto">Asunto</label>
+                        <select id="asunto" name="asunto">
+                            <option value="consulta">Consulta General</option>
+                            <option value="pedido">Estado de Pedido</option>
+                            <option value="stock">Disponibilidad de Stock</option>
+                        </select>
+                    </div>
+                    
+                    <div class="group-form">
+    
+                        <label for="mensaje">Mensaje</label>
+                        <textarea id="mensaje" rows="4"></textarea>
+    
+                        <button type="submit" class="btn-enviar">ENVIAR</button>
+                    </form>
+                </div>
+            </div>
+    
+            <div class="map-section">
+                <h3>Nuestra Ubicación</h3>
+                <div class="map-responsive">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.873142215643!2d-77.0315!3d-12.0464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTLCsDAyJzQ3LjAiUyA3N8KwMDEnNTMuNCJX!5e0!3m2!1ses!2spe!4v1622548000000!5m2!1ses!2spe" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+                <div class="social-share">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-tiktok"></i></a>
+            </div>
+            </div>
+        </main>
+    
+        <footer>
+            <p>&copy; 2026 Nova Anime Store</p>
+        </footer>
+</body>
+</html>
